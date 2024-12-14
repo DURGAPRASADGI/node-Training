@@ -1,0 +1,49 @@
+npm--> node package module
+-->its a registory aned contain packages
+--->node how to  manage package through entire application
+
+======================================================
+json--> javaScript object Natation
+
+object in json:-
+
+{
+    "firstName":"durga",
+    "lastName":"prasad"
+}
+
+arrays of object:-
+
+[
+    {
+    "firstName":"durga",
+    "lastName":"prasad"
+},
+{
+    "firstName":"ganesh",
+    "lastName":"bommada"
+},
+{
+    "firstName":"venu",
+    "lastName":"bommada",
+    "age":10
+}
+]
+
+--->it data represtation
+--->its store key and value
+
+==========================================================
+--->package.json
+--->entry point to app
+--->it contain package and used to app
+---->script(start,test) means start and test application
+--->it have a meta data(name,version,description)
+
+
+--->how generate package.json
+-->check whether node install in system or not
+----> go -> terminal click "new Terminal" use this command cd projectfolderName
+-----> after use npm init
+----->give all answer 
+----->Type "yes"
