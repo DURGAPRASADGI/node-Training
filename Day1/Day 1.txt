@@ -1,0 +1,17 @@
+node Js:-  singe Thread,Async,Non block(I/O)
+I--> input
+O --> output
+
+--> it means node has single thread 
+-->Async:- it process multiple request at a time
+-->Non block:- it can't block any request
+
+how to work node js :-
+========================
+node js have single thread and node have event loop every request has one event so when request come in node js the request will go event loop and every request has one event after completed
+event it give response (callback) and it can process multiple request at a time and it can't stop any request
+
+Disadavantage in java completed node:-
+====================================== 
+in java when a come multiple request for every request it will create new thread and it will wait one request process completed after other request has been processed and if you handle multiple request  at a time will configure multiple thread
+
